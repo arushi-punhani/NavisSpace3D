@@ -2,7 +2,7 @@
 
 ### Indoor Navigation System for Large Buildings using Python, 3D Graphs, and Linear Algebra
 
-## 📌 Overview
+##  Overview
 
 PathMatrix 3D is a Python-based indoor navigation system designed for large multi-floor buildings such as hospitals, malls, universities, and airports.
 
@@ -12,7 +12,7 @@ The system uses **3D coordinate mapping, graph theory, vectors, and matrix trans
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 People often get lost inside large buildings because GPS signals are weak or unavailable indoors.
 
@@ -28,7 +28,7 @@ The objective is to create a smart navigation system that helps users move from 
 
 ---
 
-## 💡 Core Concepts Used
+##  Core Concepts Used
 
 ### 1. 3D Coordinate System
 
@@ -84,7 +84,7 @@ Shortest path algorithms used:
 
 ---
 
-## ⚙️ Features
+## Features
 
 * Multi-floor indoor navigation
 * 3D building representation
@@ -96,7 +96,7 @@ Shortest path algorithms used:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **NumPy** → matrix operations
@@ -106,7 +106,7 @@ Shortest path algorithms used:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 PathMatrix3D/
@@ -121,8 +121,7 @@ PathMatrix3D/
 ```
 
 ---
-
-## 🚀 Working
+##  Working
 
 1. User enters source and destination
 2. System maps coordinates in 3D space
@@ -132,7 +131,7 @@ PathMatrix3D/
 
 ---
 
-## 📊 Output
+## Output
 
 The output shows:
 
@@ -152,11 +151,11 @@ Reception → Lift → Floor 1 → Floor 2 → ICU
 
 ---
 
-## 📈 Real World Impact
+## Real World Impact
 
 This project can be used in:
 
-### 🏥 Hospitals
+###  Hospitals
 
 Critical for emergency navigation:
 
@@ -165,30 +164,16 @@ Critical for emergency navigation:
 * Labs
 * Emergency wards
 
-### 🏬 Shopping Malls
+###  Shopping Malls
 
 * Store navigation
 * Parking guidance
 * Exit routing
 
-### 🎓 Universities
+###  Universities
 
 * Classroom navigation
 * Department blocks
 * Lab access
 
 ---
-
-## 🔮 Future Scope
-
-* Voice-guided navigation
-* AR route overlay
-* Mobile app integration
-* Real-time crowd avoidance
-* Emergency evacuation paths
-
----
-
-## 👩‍💻 Developed Using
-
-Python + 3D Geometry + Linear Algebra + Graph Algorithms
