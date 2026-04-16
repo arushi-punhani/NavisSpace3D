@@ -121,6 +121,36 @@ PathMatrix3D/
 ```
 
 ---
+
+## Run the Project
+
+1. Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the demo:
+
+```bash
+python main.py
+```
+
+Optional flags:
+
+- `--source "Entrance"`
+- `--destination "ICU"`
+- `--algorithm dijkstra|astar`
+- `--no-plot`
+
+---
 ##  Working
 
 1. User enters source and destination

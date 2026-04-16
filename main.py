@@ -6,7 +6,7 @@ import argparse
 import string
 
 from graph_builder import build_hospital_graph
-from floor_mapper import adjacency_matrix
+from mapper import adjacency_matrix
 from pathfinder import describe_route, find_shortest_path
 from visualization import plot_hospital_route
 

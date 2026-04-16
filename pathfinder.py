@@ -6,7 +6,7 @@ from typing import Dict, List
 
 import networkx as nx
 
-from floor_mapper import Location, euclidean_distance
+from mapper import Location, euclidean_distance
 
 
 def _heuristic(current: str, target: str, locations: Dict[str, Location]) -> float:

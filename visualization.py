@@ -7,7 +7,7 @@ from typing import Dict, Iterable, List, Tuple
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 
-from floor_mapper import FLOOR_HEIGHT, Location
+from mapper import FLOOR_HEIGHT, Location
 
 
 CATEGORY_COLORS = {

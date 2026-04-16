@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 
 import networkx as nx
 
-from floor_mapper import Location, euclidean_distance
+from mapper import Location, euclidean_distance
 
 
 def _build_locations() -> Dict[str, Location]:
