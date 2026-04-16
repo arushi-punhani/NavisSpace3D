@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import Dict, Iterable, List, Tuple
 
+import matplotlib
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 
@@ -82,4 +83,13 @@ def plot_hospital_route(
     axis.set_zlabel("Height / Floor")
     axis.legend()
     plt.tight_layout()
+
+    backend = matplotlib.get_backend().lower()
+    if "agg" in backend:
+        output_file = "hospital_route.png"
+        plt.savefig(output_file, dpi=160)
+        print(f"Non-interactive backend detected ({backend}). Saved visualization to {output_file}.")
+        plt.close(figure)
+        return
+
     plt.show()
